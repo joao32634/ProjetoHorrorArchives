@@ -1,0 +1,26 @@
+body {
+    margin: 0; /* Remove espaço padrão do body */
+    height: 100vh; /* Faz o fundo ocupar 100% da tela */
+    
+    /* Define a imagem */
+    background-image: url('Images/BackgroundWood.jpg'); /* Caminho para a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: repeat; /* Evita repetição */
+}
+.linha{
+    border:0;
+    border-top: 4px solid rgb(141, 34, 34);
+    background-color: rgb(112, 56, 56);
+}
+@media (min-width: 992px) {
+  .container { flex-direction: row; }
+  .sidebar { display: block; }
+}
+@media (min-width: 1200px) {
+  .container { max-width: 1140px; margin: 0 auto; }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
